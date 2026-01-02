@@ -1,4 +1,4 @@
-// lib/screens/detail_screen.dart (View - Detail per Data)
+// lib/views/detail_screen.dart (View - Detail per Data)
 import 'package:flutter/material.dart';
 
 import '../models/contact.dart';

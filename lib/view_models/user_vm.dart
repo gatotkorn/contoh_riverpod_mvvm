@@ -4,7 +4,7 @@ import '../models/user_model.dart';
 class UserViewModel extends StateNotifier<UserModel> {
   UserViewModel()
       : super(UserModel(
-    name: 'Eunah Kim',
+    name: 'Jackie',
     nik: '20240101',
     joinDate: 'Tgl Masuk Kerja',
     annualLeave: 12,

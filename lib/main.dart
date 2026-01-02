@@ -1,7 +1,7 @@
-import 'package:contoh_riverpod/screens/add_contact.dart';
-import 'package:contoh_riverpod/screens/home_screen1.dart';
-import 'package:contoh_riverpod/screens/splash_screen.dart';
 import 'package:contoh_riverpod/utils/page_transitions.dart';
+import 'package:contoh_riverpod/views/add_contact.dart';
+import 'package:contoh_riverpod/views/home_screen.dart';
+import 'package:contoh_riverpod/views/splash_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
@@ -14,16 +14,11 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    // return MaterialApp(
-    //   title: 'Contact App',
-    //   theme: ThemeData(primarySwatch: Colors.blue),
-    //   home: const HomeScreen(),
-    // );
-
     return MaterialApp(
       title: 'Contact App',
       theme: ThemeData(primarySwatch: Colors.blue),
-      home: const VideoSplashScreen(),
+      // home: const VideoSplashScreen(),
+      home: const HomeScreen(),
       onGenerateRoute: (settings) {
         Widget page;
         switch (settings.name) {
